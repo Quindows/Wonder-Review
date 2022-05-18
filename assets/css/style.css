@@ -1,0 +1,63 @@
+/* MAIN STYLE SHEET (comment can be removed) */
+
+/* body */
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* footer */
+footer {
+    position:absolute;
+    bottom:0;
+}
+
+/* navbar */
+header.navbar{
+    width: 100%;
+    background-color:antiquewhite;
+}
+
+header.navbar ul.menu{
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+header.navbar ul.menu li{
+    padding: 20px 20px;
+    list-style: none;
+}
+
+header.navbar ul.menu li a{
+    color: black;
+    text-decoration: none;
+
+    font-size: 1.2rem;
+    padding: 20px 20px;
+}
+
+header.navbar ul.menu li a:hover{
+    background-color: rgb(245, 232, 220);
+}
+
+
+/* TEMPLATE STYLING */
+
+/* Home */
+.recipes .content a{
+    color: red;
+}
+
+.home a{
+    text-decoration: none;
+}
+/* End home */
+
+/* Custom */
+.page-template-template-custom{
+    background-color: red;
+}
+/* End Custom */
