@@ -1,17 +1,17 @@
 <?php
 
-add_action('init', 'recipePostType');
+add_action('init', 'reviewPostType');
 
-function recipePostType()
+function reviewPostType()
 {
     $args = [
         'labels' => [
-            'name' => 'Recipe',
-            'singular_name' => 'Recipe',
-            'all_items' => 'All recipes',
-            'edit_item' => 'Edit recipes',
-            'add_new' => 'Add recipe',
-            'add_new_item' => 'Add new recipe',
+            'name' => 'Review',
+            'singular_name' => 'review',
+            'all_items' => 'All reviews',
+            'edit_item' => 'Edit reviews',
+            'add_new' => 'Add review',
+            'add_new_item' => 'Add new review',
         ],
         'publicly_queryable' => true,
         'exclude_from_search' => false,
@@ -27,11 +27,11 @@ function recipePostType()
             'editor',
         ],
         'rewrite' => [
-            'slug' => 'recipes',
+            'slug' => 'reviews',
         ],
     ];
 
-    \register_post_type('recipes', $args);
+    \register_post_type('reviews', $args);
 
 }
 
