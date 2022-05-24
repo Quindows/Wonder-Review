@@ -1,3 +1,12 @@
 body{
     background-color: aquamarine;
 }
+
+header.navbar ul.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+}

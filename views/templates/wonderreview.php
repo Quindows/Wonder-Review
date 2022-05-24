@@ -2,7 +2,6 @@
 /** @var string $title */
 /** @var string $content */
 ?>
-<link rel="stylesheet" href="./assets/css/wonderreview.css">
 
 <div class="wonderreview">
 
