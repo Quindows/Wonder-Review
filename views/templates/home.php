@@ -1,15 +1,15 @@
 <?php
 /** @var string $title */
 /** @var string $content */
-/** @var array $buttonGroup */
+/** @var array $reviewItems */
 
-if(!$buttonGroup){
-    $buttonGroup = null;
+var_dump($reviewItems);
+foreach($reviewItems as $review){
+    var_dumb($reviewItems);
 }
 ?>
 
 <div class="home">
-
     <?php if($title): ?>
         <h1><?php echo $title; ?></h1>
     <?php endif; ?>
@@ -18,10 +18,6 @@ if(!$buttonGroup){
 
     <?php if($content): ?>
         <?php echo $content; ?>
-    <?php endif; ?>
-
-    <?php if($buttonGroup): ?>
-        <?php render('views/molecules/button-collection.php', compact('buttonGroup')); ?>
     <?php endif; ?>
 
 </div>
