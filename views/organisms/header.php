@@ -1,19 +1,27 @@
 <?php
+$menuCount = 0;
+$url = get_stylesheet_directory_uri();
 $menuItems = wp_get_nav_menu_items('Main Menu');
 ?>
 
-<header class="header navbar">
+<nav class="header navbar">
 
     <?php if($menuItems): ?>
-    <ul class="menu">
-
+    <ul>
         <?php foreach($menuItems as $item): ?>
-        <li class="menu-item">
-            <a href="<?php echo $item->url; ?>"><?php echo $item->title; ?></a>
-        </li>
-        <?php endforeach; ?>
-
+            <li class=>
+                <a href="<?php echo $item->url; ?>"><?php echo $item->title; ?></a>
+            </li>
+            <?php $menuCount++; 
+            if ($menuCount == 1){
+                echo '<img src= "' . $url . '/assets/img/WonderLogo.png" alt="WonderReview Logo">';
+            } 
+            ?>
+        <?php endforeach; ?>        
+    <!-- <img src="<?php echo $url . '/assets/img/WonderLogo.png'; ?>" alt="WonderReview Logo"> -->
     </ul>
     <?php endif; ?>
 
-</header>
+</nav>
+
+
