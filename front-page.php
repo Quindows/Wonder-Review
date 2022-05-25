@@ -1,11 +1,28 @@
 <?php
 /** config for home template **/
+?>
 
-$title = get_the_title();
-$content = get_the_content();
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="http://www.wonderreview.com">HomePage</a>
+            </li>
+            <img src="http://www.wonderreview.com/wp-content/uploads/2022/05/WonderLogo.png" alt="WonderReview Logo">
+            <li>
+                <a href="http://www.wonderreview.com/archive-page/">Archive</a>
+            </li>
+        </ul>
+    </nav>
 
-$homeButton = ['url' => get_home_url(), 'title' => 'Klik hier voor de homepage', 'class' => null];
-$adminButton = ['url' => get_home_url() . '/wp-admin', 'title' => 'Klik om in de admin dashboard te komen', 'class' => 'admin-btn'];
-$buttonGroup = [$homeButton, $adminButton];
-
-render('views/templates/home.php', ['title' => $title, 'content' => $content, 'buttonGroup' => $buttonGroup]);
+Haaaaha, bonjour
+</body>
+</html>
