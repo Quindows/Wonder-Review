@@ -12,6 +12,6 @@
     <?php if($content): ?>
         <?php echo $content; ?>
     <?php endif; ?>
-
+<h1>OELEBOELE Billen voelen</h1>
 </div>
 
