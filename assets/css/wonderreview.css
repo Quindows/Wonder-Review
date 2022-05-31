@@ -74,3 +74,40 @@ footer{
     position: absolute;
     width: 100vw;
 }
+
+div.row{
+    width: 70%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+/* START CARD */
+.card{
+    width: 30rem;
+    margin-top: 5rem;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.card div.img img{
+    width: 100%;
+}
+
+.card p.inhoud{
+    width: 100%;
+}
+
+.card div.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card div.content a.url{
+    text-decoration: none;
+    color: black;
+}
+
+/* END CARD */
