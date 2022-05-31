@@ -16,7 +16,8 @@
             <li>
                 <a href="http://www.wonderreview.com">HomePage</a>
             </li>
-            <img src="http://www.wonderreview.com/wp-content/uploads/2022/05/WonderLogo.png" alt="WonderReview Logo">
+            <img src="http://www.wonderreview.local/wp-content/uploads/2022/05/WonderLogo.png" alt="WonderReview Logo">
+                    
             <li>
                 <a href="http://www.wonderreview.com/archive-page/">Archive</a>
             </li>
