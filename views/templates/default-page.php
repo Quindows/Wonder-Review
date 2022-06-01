@@ -3,6 +3,7 @@
 /** @var string $content */
 ?>
 
+
 <div class="page--default">
 
 <?php
@@ -28,9 +29,9 @@ $reviewsItemCollection = get_posts($arguments);
             </div>
             <h1><?php echo $review->post_title; ?></h1>
             <p class="inhoud"><?php echo get_field('inhoud', $review->ID) ?></p>
-            <div class="content">
-                <p class="score">score: <?php echo get_field('score', $review->ID) ?> / 10</p> 
-                <a class="url" href="<?php echo $url ?>"><?php echo $url ?></a>
+            <p class="score">score: <?php echo get_field('score', $review->ID) ?> / 10</p> 
+            <div class="link">
+                <a href="<?php echo $review->post_title; ?>?id=<?php echo $review->ID ?>">View review</a>
             </div>
         </div>
     <?php
