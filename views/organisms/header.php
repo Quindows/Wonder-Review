@@ -10,7 +10,7 @@ $menuItems = wp_get_nav_menu_items('Main Menu');
     <ul>
         <?php foreach($menuItems as $item): ?>
             <li class=>
-                <a href="<?php echo $item->url; ?>"><?php echo $item->title; ?></a>
+                <a class="nav" href="<?php echo $item->url; ?>"><?php echo $item->title; ?></a>
             </li>
             <?php $menuCount++; 
             if ($menuCount == 1){
