@@ -14,7 +14,7 @@ $menuItems = wp_get_nav_menu_items('Main Menu');
             </li>
             <?php $menuCount++; 
             if ($menuCount == 1){
-                echo '<img src= "' . $url . '/assets/img/WonderLogo.png" alt="WonderReview Logo">';
+                echo '<img src= "' . $url . '/assets/img/WonderLogo.png" class="navLogo" alt="WonderReview Logo">';
             } 
             ?>
         <?php endforeach; ?>        
