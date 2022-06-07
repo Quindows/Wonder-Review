@@ -12,7 +12,7 @@ $img = $img['url'];
 ?>
 
 <div class="row-single">
-    <div class="img"> <img src="<?= $img ?>" alt="albeelding niet gevonden"></div>
+    <div class="img"> <img src="<?= $img ?>" alt="afbeelding niet gevonden"></div>
     <h1><?= $post->post_title; ?></h1>
     <p> <?= $post->inhoud ?></p>
     <div class="content">

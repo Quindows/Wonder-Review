@@ -12,6 +12,25 @@ body div#SuperCooleThema{
     padding-bottom: 3rem;
 }
 
+/* Homepage Styling */
+.home-posts{
+    margin-left: 12rem;
+    margin-right: 15rem;
+    width: 30%;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.home-info{
+    margin-right: 5rem;
+    width: 30%;
+    height: auto;
+}
+
+.home-bottom{
+    display: flex;
+}
+
 
 /* Reuseble styling */
 a:not(a.nav){
@@ -82,6 +101,8 @@ div.row{
     margin: 0 auto;
 }
 
+
+/* Footer Styling */
 footer{
     margin-block-start: 0;
     margin-block-end: 0;
@@ -120,6 +141,7 @@ div.row{
 
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 /* START CARD */
