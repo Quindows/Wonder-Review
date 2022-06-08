@@ -110,20 +110,18 @@ div.row{
 
 /* Footer Styling */
 footer{
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-inline-start: 0;
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 100%;
 
     background-color: rgb(106,168,79);
+    border-top: 0.05rem solid black;
+
+    position: relative;
+    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 1.2rem;
-    height: 3rem;
-    margin: 0;
-    width: 100%;
-    border-top: 0.05rem solid black;
-    bottom: 0;
 }
 
 .footer-side{
@@ -152,12 +150,13 @@ div.row{
 
 /* START ARCHIVE LAYOUT PAGE */
 .row-archive{
-    display: flex;
-    flex-direction: row;
+    font-size: 1.2rem;
     width: 75%;
     margin: 0 auto;
     padding: 4rem;
-    font-size: 1.2rem;
+
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
