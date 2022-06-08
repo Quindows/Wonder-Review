@@ -10,7 +10,7 @@
 
 $archive = get_post_type_archive_link('reviews');
 
-$arguments = ['post_type' => 'reviews', 'numberposts' => -1, 'category' => 0, 'orderby' => 'date', 'order' => 'DESC'];
+$arguments = ['post_type' => 'reviews', 'numberposts' =>-1, 'category' => 0, 'orderby' => 'date', 'order' => 'DESC'];
 $reviewsItemCollection = get_posts($arguments);
 
 ?>
