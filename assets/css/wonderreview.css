@@ -31,6 +31,12 @@ body div#SuperCooleThema{
     display: flex;
 }
 
+/* .home-welcome{
+    background-color: white;
+    height: 25rem;
+    width: 30rem;
+} */
+
 
 /* Reuseble styling */
 a:not(a.nav){

@@ -37,10 +37,17 @@ Haaaaha, bonjour
     ?>
     </div>
     <div class="home-info">
+        <div class="home-welcome">
+        <h3></h3>
+        </div>
+        <div class="home-pictures">
+
+        </div>
+        <div class="home-aboutus">
+            
+        </div>
     <div>
-    <div class=""></div>
-    <div></div>
-    <div></div></div>
+    </div>
     </div>
 </div>
 </div>
