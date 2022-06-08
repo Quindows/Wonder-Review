@@ -6,18 +6,17 @@ $arguments = ['post_type' => 'reviews', 'numberposts' => -1, 'category' => 0, 'o
 $reviewsItemCollection = get_posts($arguments);
 
 foreach($reviewsItemCollection as $review){
-    var_dump(get_permalink($review));
+    // var_dump(get_permalink($review));
     var_dump($review);
         
     ?>
     <div>
         <div>
-            <img src="<?php echo get_field('afbeelding', $review->ID)" alt="">
+            <img src=<?php echo get_field('afbeelding', $review->ID) ?> alt="">
         </div>
         <div>
-            <h1></h1>
+            <h1>test</h1>
             <p></p>
             <p></p>
         </div>
     </div>
-}

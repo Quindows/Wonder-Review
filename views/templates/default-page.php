@@ -14,7 +14,7 @@ $arguments = ['post_type' => 'reviews', 'numberposts' => -1, 'category' => 0, 'o
 $reviewsItemCollection = get_posts($arguments);
 
 ?>
-    <div class="row">
+    <div class="row-archive ">
     <?php
     foreach($reviewsItemCollection as $review){
         // var_dump(get_permalink($review));
@@ -31,7 +31,7 @@ $reviewsItemCollection = get_posts($arguments);
             <p class="inhoud"><?php echo get_field('inhoud', $review->ID) ?></p>
             <p class="score">score: <?php echo get_field('score', $review->ID) ?> / 10</p> 
             <div class="link">
-                <a href="<?php echo $review->post_title; ?>?id=<?php echo $review->ID ?>">View review</a>
+                <a href="<?php echo $review->post_title; ?>">View review</a>
             </div>
         </div>
     <?php
