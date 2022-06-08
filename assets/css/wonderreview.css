@@ -31,11 +31,18 @@ body div#SuperCooleThema{
     display: flex;
 }
 
-/* .home-welcome{
+.home-welcome{
+    margin-top: 5rem;
     background-color: white;
     height: 25rem;
     width: 30rem;
-} */
+    border: 0.15rem solid black;
+    border-radius: 1rem;
+}
+
+.home-welcome h2{
+    text-align: center;
+}
 
 
 /* Reuseble styling */

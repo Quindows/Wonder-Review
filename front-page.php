@@ -38,7 +38,10 @@ Haaaaha, bonjour
     </div>
     <div class="home-info">
         <div class="home-welcome">
-        <h3></h3>
+        <h2>Welkom!</h2>
+        <br>
+        <p>Welkom bij Wonderreview!</p>
+        <p>Hier komt er allemaal informatie over deze site.</p>
         </div>
         <div class="home-pictures">
 
