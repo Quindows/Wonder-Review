@@ -33,15 +33,43 @@ body div#SuperCooleThema{
 
 .home-welcome{
     margin-top: 5rem;
-    background-color: white;
+    background-color: rgb(129, 187, 137);
     height: 25rem;
     width: 30rem;
-    border: 0.15rem solid black;
+    box-shadow: 3px 5px 8px;
     border-radius: 1rem;
+    font-size: 1.25rem;
 }
 
 .home-welcome h2{
     text-align: center;
+    padding-top: 0.5rem;
+    
+}
+
+.home-welcome p{
+    margin: 0 0.5rem;
+}
+
+.home-pictures{
+    width: 30rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.creator-picture{
+    width: 11rem;
+    height: 11rem;
+    background-color: rgb(129, 187, 137);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    box-shadow: 3px 5px 8px;
+
+}
+
+.mt-0{
+    margin-top: 0;
 }
 
 

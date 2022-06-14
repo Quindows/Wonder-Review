@@ -5,16 +5,15 @@ $archive = get_post_type_archive_link('reviews');
 
 $arguments = ['post_type' => 'reviews', 'numberposts' =>3, 'category' => 0, 'orderby' => 'date', 'order' => 'DESC'];
 $reviewsItemCollection = get_posts($arguments);
-$url = get_stylesheet_directory_uri();
+$url2 = get_stylesheet_directory_uri();
 ?>
 <div class="page-content">
-<img src="<?php echo $url ?>/assets/img/Banner2.jpg" class="banner-image" alt="Banner Image">
+<img src="<?php echo $url2 ?>/assets/img/Banner2.jpg" class="banner-image" alt="Banner Image">
 <br>
-Haaaaha, bonjour
 <div class="home-bottom">
     <div class="home-posts">
     <?php
-    foreach($reviewsItemCollection as $review){
+    foreach(array_slice($reviewsItemCollection, 0, 3) as $review){
         // var_dump(get_permalink($review));
         $url = get_field('link', $review->ID);
 
@@ -36,6 +35,7 @@ Haaaaha, bonjour
     }
     ?>
     </div>
+
     <div class="home-info">
         <div class="home-welcome">
         <h2>Welkom!</h2>
@@ -44,10 +44,14 @@ Haaaaha, bonjour
         <p>Hier komt er allemaal informatie over deze site.</p>
         </div>
         <div class="home-pictures">
-
+        <img class="creator-picture" src="<?php echo $url2 ?>/assets/img/Wob.png" alt="Wob-Image">
+        <img class="creator-picture" src="<?php echo $url2 ?>/assets/img/Sander.png" alt="Sander-Image">
         </div>
-        <div class="home-aboutus">
-            
+        <div class="home-welcome mt-0">
+        <h2>Wie zijn wij?</h2>
+        <br>
+        <p>Wij zijn Wob en Sander</p>
+        <p>Samen vormen wij Team WonderReview!. (hier komt nog meer uitleg over ons)</p>
         </div>
     <div>
     </div>
